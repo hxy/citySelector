@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:text="热门城市"/>
+
+    <hy.cityselectedtest.WrapHeightGridView
+        android:id="@+id/hot_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_column="3"
+        android:layout_row="3"
+        android:horizontalSpacing="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"/>
+
+</LinearLayout>
