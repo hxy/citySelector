@@ -5,7 +5,7 @@
 
 ![image](https://github.com/hxy/citySelector/blob/master/demonstration.jpg)
 
-使用时需要可以将项目修改为module然后引用，修改为module的步骤：
+使用时可以将项目修改为module然后引用，修改为module的步骤：
 
 1.修改名字app为citySelector
 
